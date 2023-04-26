@@ -1,10 +1,6 @@
 import data from "./data/rickandmorty/rickandmorty.js";
 const resultado = data.results;
 
-
-
-
-
 /*Aqui filtramos la data por botones*/
 
 //Filtro por genero
@@ -25,16 +21,9 @@ export function todasLasEspecies(valorEspecies){
   return filtroSpecies;
 }
   
-//filtro por 
-//export const filterOrder = resultado.filter(order => order.name)
-//console.log(filterOrder)
-
-
-
+// Ordenar A-Z    Z-A 
 export function sortAll(order, resultado) {
-  console.log(order, resultado)
   const charactersCopy = [...resultado]; 
-  console.log(charactersCopy)
   charactersCopy.sort((A, Z) => { 
     if (order) {
       return A.name.localeCompare(Z.name); 

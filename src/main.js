@@ -98,22 +98,18 @@ especies.addEventListener("change", () => {
 
 //Filtro de la A a la Z
 
-
 const ordenar = document.getElementById('ordenar');
-
- // o false, dependiendo de la lógica deseada
 ordenar.addEventListener('change', () => {
-   const contenedor = document.querySelector("#root");
-   contenedor.innerHTML = "";
-    let order = "";
-    if(ordenar.value === "A-Z"){
-        order = true;
-    } else{
-        order = false;
-    }
+  const contenedor = document.querySelector("#root");
+  contenedor.innerHTML = "";
+  let order = "";  // o false, dependiendo de la lógica deseada
+  if(ordenar.value === "A-Z"){
+    order = true;
+  } else{
+    order = false;
+  }
   const resultado = data.results;
   const resultadoOrdenado = sortAll(order, resultado);
-  console.log(resultadoOrdenado);
   const resultadopersonajes = crearElementosDeCaracteres(resultadoOrdenado)
   resultadopersonajes.forEach((divCaracter) => {
     contenedor.appendChild(divCaracter);
