@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Estilos a la primera pagina */
+.contenedorInicio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(imagenes/fondo.jpg);
+}
+
+
+.enlace{
+    background-color: rgb(96, 181, 196);
+    width: 15vw;
+    height: 3vw;
+    text-align: center;
+    font-size: 2vw;
+    border-radius: 1vw;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.welcome{
+    margin-top: 4vw;
+    margin-left: 30vw;
+    margin-bottom: 2vw;
+    /*margin: auto;*/
+}
+
+.rick{
+    margin-top: 2vw;
+    margin-left: 25vw;
+    margin-bottom: 4vw;
+}
+
+
+
+
+
+
+/*  Estilos al header */
+header{
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 30px;
+    position: fixed;
+    width: 100%;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+
+header .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+#ordenar{
+   float: right;
+   margin-right: 150px;
+   margin-top: 25px
+}
+
+
+/* Estilos a la pagina*/
+
+.body2{
+    background-image: url(imagenes/fondo.jpg);
+
+}
+
+.contenedor-padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 180px;
+    margin-left: 10px;
+    float: left;
+    position: fixed;
+    width: 170px;
+}
+
+.contenedor-filtro{
+    width: 140px;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+select {
+    background-color:rgb(103,235,41);
+    border-radius: 10px;
+    margin-left: 5px;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+}
+
+label{
+    text-align: center;
+    color: white;
+}
+  
+
+
+/* Estilos a la data */
+
+p{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+
+}
+
+.caracteres{
+  border-radius: 35px;
+  margin: 35px;
+  margin-left: 50px;
+  width: 230px;
+  text-align: center;
+  background-color:rgb(11, 11, 11);
+  box-shadow: 0 0 18px rgb(245, 248, 248);
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 85px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 10px;
+  padding-bottom: 50px;
+}
+
+#root img{
+   width: 195px;
+   height: 230px;
+   border-radius: 20px;
+   margin: 15px;
+}
+
+
+
