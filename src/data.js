@@ -32,6 +32,7 @@ export function todasLasEspecies(valorEspecies){
 
 
 export function sortAll(order, resultado) {
+  console.log(order, resultado)
   const charactersCopy = [...resultado]; 
   console.log(charactersCopy)
   charactersCopy.sort((A, Z) => { 

@@ -75,22 +75,20 @@ describe("test funcion Species", () => {
 
 
 const nameData = [
-  { name: "Elsy" },
-  { name: "Celeste" },
-  { name: "Tom" },
-  { name: "Adrian" },
+  { name: "Lilian" },
+  { name: "Fatima" },
+  { name: "Alan" },
 ];
-const name2 = [
-  { name: "Adrian" },
-  { name: "Celeste" },
-  { name: "Elsy" },
-  { name: "Tom" },
+const nameDos = [
+  { name: "Alan" },
+  { name: "Fatima" },
+  { name: "Lilian" },
+
 ];
-const name3 = [
-  { name: "Tom" },
-  { name: "Elsy" },
-  { name: "Celeste" },
-  { name: "Adrian" },
+const nameTres = [
+  { name: "Lilian" },
+  { name: "Fatima" },
+  { name: "Alan" },
 ];
 
 describe("Prueba unitaria de orden alfabetico", () => {
@@ -99,10 +97,10 @@ describe("Prueba unitaria de orden alfabetico", () => {
   });
 
   it("Retornar el arreglo de forma ordenada alfabeticamente empezando por la A", () => {
-    expect(sortAll(true, nameData)).toEqual(name2);
+    expect(sortAll(true, nameData)).toEqual(nameDos);
   });
   it("Retornar el arreglo de forma ordenada alfabeticamente empezando por la Z", () => {
-    expect(sortAll(false, nameData)).toEqual(name3);
+    expect(sortAll(false, nameData)).toEqual(nameTres);
   });
 });
 
