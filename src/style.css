@@ -10,10 +10,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    height: 100%;
+    
+}
+body {
     background-image: url(imagenes/fondo.jpg);
 }
-
-
 .enlace{
     background-color: rgb(96, 181, 196);
     width: 15vw;
@@ -40,6 +42,7 @@ a{
     margin-left: 25vw;
     margin-bottom: 4vw;
 }
+
 
 
 
