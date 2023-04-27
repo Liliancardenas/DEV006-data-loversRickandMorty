@@ -11,6 +11,9 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
+body{
+    background-image: url(imagenes/fondo.jpg)
+}
 
 
 .enlace{
