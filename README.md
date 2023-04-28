@@ -91,4 +91,4 @@ También, seleccionando el logo del portal, te desplegará hacia la página de i
 
 
 
-
+Visita la pagina [aquí] (https://liliancardenas.github.io/DEV006-data-loversRickandMorty/src/index1.html)
